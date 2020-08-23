@@ -2,7 +2,8 @@
 int main()
 {
 	int x;
-	scanf("%d", &x);
+	printf("Enter integer : ");
+	scanf_s("%d", &x);
 	if (x > 0)
 	{
 		if (x % 2 == 0)
